@@ -1,0 +1,105 @@
+nav{
+    padding-top: 30px;
+    padding-left: 150px;
+}
+.login img{
+    height: 20px;
+    width: 20px;
+  
+}
+.login{
+    background-color: rgb(247, 96, 96);
+    padding: 10px;
+}
+
+header{
+    background-color: blue;
+    color: white;
+    padding-bottom: 20px;
+}
+
+li{
+    display: inline;
+    list-style: none;
+    padding-right: 30px;
+    font-size: 20px;
+}
+#header{
+    display: flex;
+}
+.header1{
+    width: 50%;
+    margin-top: 130px;
+    text-align: center;
+    font-size: 30px;
+}
+.header1 button{
+    color: white;
+
+}
+.header2{
+    width: 50%;
+    margin-top: 100px;
+}
+.header2 img{
+    width: 65%;
+    height: 95%;
+} 
+#grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    margin-left: 180px;
+    margin-right: 180px;
+    
+}
+#grid img{
+    height: 60%;
+    width: 100%;
+}
+.grid-box{
+    border: 2px solid white;
+    box-shadow: 10px 10px 10px 10px gray;
+    margin: 20px;
+    padding: 20px;
+   
+}
+#match{
+    display: flex;
+}
+.match1{
+    width: 50%;
+    margin-left: 180px;
+}
+.match1 h1{
+    font-size: 40px;
+}
+.match1 p{
+    color: gray;
+    font-size: 20px;
+}
+.match2{
+    width: 50%;
+    margin-right: 100px;
+}
+.match2 img{
+    width: 90%;
+    height: 90%;
+   
+}
+.match1 button{
+    color: white;
+    
+}
+footer{
+    text-align: center;
+}
+.football img{
+    width: 30%;
+    height: 30%;
+}
+.icon img{
+    width: 3%;
+    height: 3%;
+    padding: 5px;
+}
